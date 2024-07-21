@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Neumorphism Digital Clock</title>
+  </head>
+  <body>
+    <div class="clock">
+      <div class="header">
+        <h1>Digital Clock</h1>
+      </div>
+      <div class="inner-clock">
+        <div class="days">
+          <span class="active"></span>
+        </div>  <!--Added from JS-->
+        <div class="container">
+          <div class="times">
+            <div class="nums">
+              <div class="count" style="--clr: rgb(9, 255, 0)">
+                <b id="hr"></b>
+              </div>
+              <div class="count" style="--clr: rgb(191, 30, 255)">
+                <b id="mn"></b>
+              </div>
+              <div class="count" style="--clr: rgb(255, 170, 0)">
+                <b id="sc"></b>
+              </div>
+              <div class="ampm">
+                <span id="ampm"></span>
+              </div>
+            </div>
+            <div class="names">
+              <span style="--clr: rgb(9, 255, 0)">Hour</span>
+              <span style="--clr: rgb(191, 30, 255)">Minute</span>
+              <span style="--clr: rgb(255, 170, 0)">Second</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>2024 @MiTA Coder Alright Reserved</p>
+      </footer>
+    </div>
+    <script src="Main.js"></script>
+  </body>
+</html>
